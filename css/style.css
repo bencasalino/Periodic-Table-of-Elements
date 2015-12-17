@@ -1,47 +1,48 @@
-body {
-  background-color: grey; }
+/*
+Error: Invalid CSS after "...e-earth-metals:": expected expression (e.g. 1px, bold), was "# ;"
+        on line 9 of scss/style.scss
 
-.col-12-lg {
-  padding: 20px; }
+4: $element-height:50px;
+5: $element-width:50px;
+6: 
+7: 
+8: // types (pick a color!)
+9: $element-rare-earth-metals:# ;
+10: $element-transition-metals:# ;
+11: $element-alkali-metals:# ;
+12: $element-inner-elements:# ;
+13: $element-other-metals:# ;
+14: $element-halogens:# ;
 
-#wrapper {
-  margin-left: 100px;
-  margin-right: 100px; }
-
-.elements {
-  height: 50px;
-  width: 50px;
-  color: white;
-  background-color: darkgray;
-  padding: 2px;
-  display: inline-block;
-  position: relative; }
-
-.empty-elements {
-  height: 50px;
-  width: 50px;
-  background-color: transparent;
-  padding: 2px;
-  display: inline-block;
-  position: relative; }
-
-.cell {
-  position: absolute; }
-
-.at_num {
-  padding-right: 45px;
-  font-size: 8px;
-  color: black; }
-
-.symbol {
-  color: #333333;
-  font-size: 10px; }
-
-.at_details {
-  font-size: 6px;
-  color: white; }
-
-.bar {
-  height: 20px; }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+scss/style.scss:9
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:1179:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/script/lexer.rb:228:in `expected!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/script/parser.rb:673:in `assert_expr'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/script/parser.rb:63:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:1041:in `sass_script'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:621:in `variable'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:674:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:667:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:126:in `stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/scss/parser.rb:42:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/engine.rb:403:in `_to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.20/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...e-earth-metals:\": expected expression (e.g. 1px, bold), was \"# ;\"\A         on line 9 of scss/style.scss\A \A 4: $element-height:50px;\A 5: $element-width:50px;\A 6: \A 7: \A 8: // types (pick a color!)\A 9: $element-rare-earth-metals:# ;\A 10: $element-transition-metals:# ;\A 11: $element-alkali-metals:# ;\A 12: $element-inner-elements:# ;\A 13: $element-other-metals:# ;\A 14: $element-halogens:# ;"; }
