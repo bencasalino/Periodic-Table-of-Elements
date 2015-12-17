@@ -1,19 +1,172 @@
-// @import "bourbon/bourbon";
+@import "../bourbon/bourbon";
 // variables
 // all elements share these properties
-$element-height:50px;
-$element-width:50px;
+// $element-height:50px;
+// $element-width:50px;
 
 
 // types (pick a color!)
-$element-rare-earth-metals:# ;
-$element-transition-metals:# ;
-$element-alkali-metals:# ;
-$element-inner-elements:# ;
-$element-other-metals:# ;
-$element-halogens:# ;
+// $element-rare-earth-metals:# ;
+// $element-transition-metals:# ;
+// $element-alkali-metals:# ;
+// $element-inner-elements:# ;
+// $element-other-metals:# ;
+// $element-halogens:# ;
 
 
+.noble-gas {
+  height:50px;
+  width: 50px;
+  color:white;
+  background-color: #ff5050;
+  padding: 2px;
+  display: inline-block;
+}
+.legend-noble-gas {
+  height: 25px;
+  width: 25px;
+  color:transparent;
+    background-color:#ff5050;
+    display: inline-block;
+  margin-right: 10px;
+}
+
+.halogen {
+  height:50px;
+  width: 50px;
+  color:white;
+  background-color:#ff9966;
+  padding: 2px;
+  display: inline-block;
+}
+
+.legend-halogen {
+  height: 25px;
+  width: 25px;
+  color:transparent;
+    background-color:#ff9966;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.non-metal {
+  height:50px;
+  width: 50px;
+  color:white;
+  background-color:#66ccff;
+  padding: 2px;
+  display: inline-block;
+}
+.legend-non-metal {
+  height: 25px;
+  width: 25px;
+  color:transparent;
+    background-color:#66ccff;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.semi-metal {
+  height:50px;
+  width: 50px;
+  color:white;
+  background-color:#3399ff;
+  padding: 2px;
+  display: inline-block;
+}
+
+.legend-semi-metal {
+  height: 25px;
+  width: 25px;
+  color:transparent;
+    background-color:#3399ff;
+  display: inline-block;
+  margin-right: 10px;
+}
+.basic-metal {
+  height:50px;
+  width: 50px;
+  color:white;
+  background-color:#66ff99;
+  padding: 2px;
+  display: inline-block;
+}
+.legend-basic-metal {
+  height: 25px;
+  width: 25px;
+  color:transparent;
+    background-color:#66ff99;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.alkali-metal {
+  height:50px;
+  width: 50px;
+  color:white;
+  background-color:#ff3300;
+  padding: 2px;
+  display: inline-block;
+}
+.legend-alkali-metal {
+  height: 25px;
+  width: 25px;
+  color:transparent;
+    background-color:#ff3300;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.alkaline-earth {
+  height:50px;
+  width: 50px;
+  color:white;
+  background-color:#ffcc99;
+  padding: 2px;
+  display: inline-block;
+}
+.legend-alkaline-earth {
+  height: 25px;
+  width: 25px;
+  color:transparent;
+    background-color:#ffcc99;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.lanthanide {
+  height:50px;
+  width: 50px;
+  color:white;
+  background-color:#33cc33;
+  padding: 2px;
+  display: inline-block;
+}
+.legend-lanthanide {
+  height: 25px;
+  width: 25px;
+  color:transparent;
+    background-color:#33cc33;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.actinide {
+  height:50px;
+  width: 50px;
+  color:white;
+  background-color:#009999;
+  padding: 2px;
+  display: inline-block;
+}
+.legend-actinide {
+  height: 25px;
+  width: 25px;
+  color:transparent;
+    background-color:#009999;
+    display: inline-block;
+  margin-right: 5px;
+}
 
 // mix ins
 
@@ -21,7 +174,7 @@ $element-halogens:# ;
     height:50px;
     width: 50px;
     color:white;
-    background-color: darkgray;
+    background-color: #33cccc;
     padding: 2px;
     display: inline-block;
 }
@@ -40,11 +193,6 @@ body {
 background-color:grey;
 }
 
-.row {
-    // display: flex;
-    // position: relative;
-    // padding-top:10px;
-}
 .col-12-lg {
     padding: 20px;
 }
@@ -67,7 +215,7 @@ background-color:grey;
     position: absolute;
 }
 
-.at_num {
+.atomic_number {
     padding-right:45px;
     font-size: 8px;
     color:black;
@@ -77,7 +225,7 @@ background-color:grey;
     font-size: 10px;
 }
 
-.at_details {
+.atomic_details {
     font-size: 6px;
     color:white;
 }
@@ -86,9 +234,19 @@ background-color:grey;
 .bar {
     height: 20px;
 }
-// #iron {
-//     height:$element-height;
-//     width: $element-width;
-//     background-color: yellow;
-//     display: inline-block;
+
+.legend {
+font-size: 12px;
+color:white;
+}
+
+p {
+
+}
+
+//
+// @media screen and (min-width:400px) {
+//    {
+//
+//   }
 // }
