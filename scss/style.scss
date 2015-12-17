@@ -1,0 +1,82 @@
+// @import "bourbon/bourbon";
+// variables
+// all elements share these properties
+$element-height:50px;
+$element-width:50px;
+
+$element-clear:transparent;
+
+
+// mix ins
+
+@mixin elements {
+    height:50px;
+    width: 50px;
+    color:white;
+    background-color: darkgray;
+    padding: 2px;
+    display: inline-block;
+}
+
+@mixin empty-elements {
+    height:50px;
+    width: 50px;
+    color:white;
+    background-color: transparent;
+    padding: 2px;
+    display: inline-block;
+}
+
+
+body {
+background-color:grey;
+}
+
+.row {
+    // display: flex;
+    // position: relative;
+    padding-top:10px;
+}
+.col-12-lg {
+    padding: 20px;
+}
+#wrapper {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.elements {
+    @include elements;
+    position:relative;
+}
+
+.empty-elements {
+    @include empty-elements;
+    position:relative;
+}
+
+.cell {
+    position: absolute;
+}
+
+.at_num {
+    padding-right:45px;
+    font-size: 8px;
+    color:black;
+}
+.symbol {
+    color:#333333;
+    font-size: 10px;
+}
+
+.at_details {
+    font-size: 6px;
+    color:white;
+}
+
+// #iron {
+//     height:$element-height;
+//     width: $element-width;
+//     background-color: yellow;
+//     display: inline-block;
+// }

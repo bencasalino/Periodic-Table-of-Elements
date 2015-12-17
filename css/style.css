@@ -1,0 +1,48 @@
+body {
+  background-color: grey; }
+
+.row {
+  padding-top: 10px; }
+
+.col-12-lg {
+  padding: 20px; }
+
+#wrapper {
+  margin-left: 100px;
+  margin-right: 100px; }
+
+.elements {
+  height: 50px;
+  width: 50px;
+  color: white;
+  background-color: darkgray;
+  padding: 2px;
+  display: inline-block;
+  position: relative; }
+
+.empty-elements {
+  height: 50px;
+  width: 50px;
+  color: white;
+  background-color: transparent;
+  padding: 2px;
+  display: inline-block;
+  position: relative; }
+
+.cell {
+  position: absolute; }
+
+.at_num {
+  padding-right: 45px;
+  font-size: 8px;
+  color: black; }
+
+.symbol {
+  color: #333333;
+  font-size: 10px; }
+
+.at_details {
+  font-size: 6px;
+  color: white; }
+
+/*# sourceMappingURL=style.css.map */
