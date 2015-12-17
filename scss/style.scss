@@ -21,7 +21,7 @@ $element-clear:transparent;
 @mixin empty-elements {
     height:50px;
     width: 50px;
-    color:white;
+    // color:white;
     background-color: transparent;
     padding: 2px;
     display: inline-block;
